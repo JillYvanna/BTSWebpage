@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTS</title>
+  </head>
+  <style>
+    @font-face {
+      font-family: "Camber";
+      src: url("fonts/Camber W04 Regular.woff2") format("woff2"),
+        url("fonts/Camber W04 Regular.woff") format("woff"),
+        url("fonts/Camber W04 Regular.eot") format("eot");
+    }
+    @font-face {
+      font-family: "Gobold";
+      src: url("fonts/gobold.regular-webfont.woff2") format("woff2"),
+        url("fonts/gobold.regular-webfont.woff") format("woff");
+      font-weight: normal;
+      font-style: normal;
+    }
+    body {
+      background: linear-gradient(rgb(83, 0, 161) 0, rgb(33, 0, 63));
+      margin: 0px 0px;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      color: #ffffff;
+      font-family: Gobold;
+      letter-spacing: 2px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 40px;
+      font-weight: lighter;
+      line-height: 1.5;
+      margin: 0;
+    }
+    h2,
+    h3 {
+      font-size: 30px;
+    }
+    h4 {
+      font-size: 25px;
+      margin: 0 auto;
+    }
+    header {
+      background: rgba(255, 255, 255, 0.4);
+      background-size: 100%;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    li {
+      display: inline-block;
+    }
+    hr {
+      width: 60%;
+    }
+    .group-photo {
+      border-radius: 55px;
+      display: block;
+      height: 500px;
+      margin: 25px auto;
+      object-fit: cover;
+      padding: 0;
+      width: auto;
+    }
+    .info {
+      line-height: 1.5;
+      margin: auto;
+      font-family: Camber, Helvetica, Arial, sans-serif;
+      text-align: justify;
+      max-width: 65%;
+      color: #ffffff;
+    }
+    .learn-more {
+      color: rgba(255, 255, 255, 0.856);
+      font-weight: bolder;
+      text-decoration: underline;
+    }
+    .member-pic {
+      border-radius: 50%;
+      height: 300px;
+      object-fit: cover;
+      object-position: center top;
+      padding: 0 8px;
+      width: 300px;
+    }
+    .rm {
+      object-position: 100% 40%;
+    }
+    .name {
+      color: #ffffff;
+      font-family: Camber, Helvetica, Arial, sans-serif;
+      font-size: 20px;
+      font-weight: bolder;
+      margin: 0;
+    }
+    #check-out {
+      text-align: center;
+    }
+    .not-loading {
+      color: #ffffff;
+      text-align: center;
+      font-family: Camber, Helvetica, Arial, sans-serif;
+      font-size: 10px;
+      margin: 0;
+      padding: 0;
+    }
+    .join {
+      border-color: #b383e7;
+      border-radius: 25px;
+      box-shadow: 4px 5px 3px rgba(0, 0, 0, 0.15);
+      border-width: 1px;
+      color: #b383e7;
+      display: block;
+      font-size: 30px;
+      font-family: Camber, Helvetica, Arial, sans-serif;
+      letter-spacing: 10px;
+      margin: 30px auto;
+      padding: 20px 40px;
+      transition: all 200ms ease-in-out;
+    }
+    .join:hover {
+      background: #885df1;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    .social-img {
+      max-width: 50px;
+      padding: 0px 7.5px;
+    }
+    #coder-wrapper {
+      background: rgba(255, 255, 255, 0.4);
+      color: #ffffff;
+      font-family: Camber, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      text-align: center;
+      width: 100%;
+    }
+    .coder-links {
+      max-width: 40px;
+      filter: invert(100%);
+    }
+    #coder-socials {
+      text-align: right;
+    }
+  </style>
+  <body>
+    <header><h1>BTS</h1></header>
+    <img
+      class="group-photo"
+      src="https://ibighit.com/bts/images/bts/profile/profile-kv.png"
+    />
+    <p class="info">
+      BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene”, is a South
+      Korean boyband that has been capturing the hearts of millions of fans
+      globally since their debut in June 2013. The members of BTS are RM, Jin,
+      SUGA, J-Hope, Jimin, V and Jung Kook. Gaining recognition from their
+      authentic, self-produced music and top-notch performances to the way they
+      interact with their fans, the band has established themselves as global
+      superstars breaking countless world records. While imparting a positive
+      influence through activities such as the LOVE MYSELF campaign and the UN
+      ‘Speak Yourself’ speech, BTS has mobilized millions of fans across the
+      world (named ARMY), topped prominent music charts, sold out worldwide
+      tours including stadiums and has been named as one of TIME 100: The Most
+      Influential People of 2019. The band has also been recognized with
+      numerous prestigious awards like the Billboard Music Awards and American
+      Music Awards.
+      <br />
+      <a
+        class="learn-more"
+        href="https://ibighit.com/bts/eng/"
+        target="_blank"
+        title="BTS Homepage"
+      >
+        Learn more
+      </a>
+    </p>
+    <hr />
+    <h2>Members</h2>
+    <div id="members">
+      <div id="row-1">
+        <ul>
+          <li>
+            <img
+              class="rm member-pic"
+              src="https://dbkpop.com/wp-content/uploads/2020/02/bts_map_of_the_soul_7_concept_UHD_RM-1333x2000.jpg"
+              alt="RM"
+            />
+            <p class="name">RM</p>
+          </li>
+          <li>
+            <img
+              class="member-pic"
+              src="https://dbkpop.com/wp-content/uploads/2020/02/bts_map_of_the_soul_7_concept_UHD_Jin-1333x2000.jpg"
+              alt="Jin"
+            />
+            <p class="name">Jin</p>
+          </li>
+          <li>
+            <img
+              class="member-pic"
+              src="https://pbs.twimg.com/media/EQlasjKU4AUjw4U?format=jpg&name=large"
+              alt="SUGA"
+            />
+            <p class="name">SUGA</p>
+          </li>
+        </ul>
+      </div>
+      <div id="row-2">
+        <ul>
+          <li>
+            <img
+              class="member-pic"
+              src="https://pbs.twimg.com/media/EQlbbo1U0AAG8I2?format=jpg&name=small"
+              alt="J-Hope"
+            />
+            <p class="name">J-Hope</p>
+          </li>
+          <li>
+            <img
+              class="member-pic"
+              src="https://dbkpop.com/wp-content/uploads/2020/02/bts_map_of_the_soul_7_concept_UHD_Jimin-1333x2000.jpg"
+              alt="Jimin"
+            />
+            <p class="name">Jimin</p>
+          </li>
+          <li>
+            <img
+              class="member-pic"
+              src="https://dbkpop.com/wp-content/uploads/2020/02/bts_map_of_the_soul_7_concept_UHD_V-1333x2000.jpg"
+              alt="V"
+            />
+            <p class="name">V</p>
+          </li>
+        </ul>
+      </div>
+      <div id="row-3">
+        <ul>
+          <li>
+            <img
+              class="member-pic"
+              src="https://dbkpop.com/wp-content/uploads/2020/02/bts_map_of_the_soul_7_concept_UHD_Jungkook-1333x2000.jpg"
+              alt="JungKook"
+            />
+            <p class="name">Jung Kook</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <br />
+    <hr />
+    <h3>Check out their latest releases</h3>
+    <div id="check-out">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/9IHwqdz8Xhw?vq=hd1080&modestbranding=1&controls=0"
+        width="560"
+        height="315"
+        frameborder="0"
+      ></iframe>
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/gwMa6gpoE9I?vq=hd1080&modestbranding=1&controls=0"
+        width="560"
+        height="315"
+        frameborder="0"
+      ></iframe>
+    </div>
+    <p class="not-loading">
+      <i
+        >If video does not load, refresh page and click "copy link" or select
+        YouTube icon in bottom corner of video to redirect</i
+      >
+    </p>
+    <br />
+    <button class="join">
+      <strong>WELCOME</strong>
+    </button>
+
+    <h4>Follow on Social Media</h4>
+    <ul class="social-media">
+      <li>
+        <a
+          href="https://twitter.com/BTS_twt"
+          target="_blank"
+          title="Twitter (Members) : Open in New Tab"
+          class="twitter"
+        >
+          <img
+            class="social-img"
+            src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/twitter-256.png"
+            alt="Twitter Logo"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://twitter.com/BTS_bighit"
+          target="_blank"
+          title="Twitter (Official) : Open in New Tab"
+          class="twitter-off"
+        >
+          <img
+            class="social-img"
+            src="https://cdn1.iconfinder.com/data/icons/social-networks-3/512/twitter-256.png"
+            alt="Twitter Logo"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.facebook.com/bangtan.official"
+          target="_blank"
+          title="Facebook : Open in New Tab"
+          class="facebook"
+        >
+          <img
+            class="social-img"
+            src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png"
+            alt="Facebook Logo"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.instagram.com/bts.bighitofficial/"
+          target="_blank"
+          title="Instagram : Open in New Tab"
+          class="instagram"
+        >
+          <img
+            class="social-img"
+            src="https://cdn4.iconfinder.com/data/icons/social-media-2146/512/25_social-256.png"
+            alt="Instagram Logo"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com/user/BANGTANTV"
+          target="_blank"
+          title="YouTube : Open in New Tab"
+          class="youtube"
+        >
+          <img
+            class="social-img"
+            src="https://cdn1.iconfinder.com/data/icons/logotypes/32/youtube-256.png"
+            alt="YouTube Logo"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://soundcloud.com/bangtan"
+          target="_blank"
+          title="SoundCloud : Open in New Tab"
+          class="soundcloud"
+        >
+          <img
+            class="social-img"
+            src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/soundcloud-256.png"
+            alt="Soundcloud Logo"
+          />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?si=jAu5Sn6JRrOGS_OZckQdTA"
+          target="_blank"
+          title="Spotify : Open in New Tab"
+          class="spotify"
+        >
+          <img
+            class="social-img"
+            src="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Spotify-256.png"
+            alt="Spotify Logo"
+        /></a>
+      </li>
+    </ul>
+    <br />
+    <div id="coder-wrapper">
+      <span>Coded by Jilliane Manansala</span>
+      <br />
+      <a
+        href="https://www.linkedin.com/in/jilliane-manansala-9b40a418a/"
+        target="_blank"
+        title="LinkedIn Profile: Open in New Tab"
+        class="linkedin"
+        ><img
+          class="coder-links"
+          src="https://cdn3.iconfinder.com/data/icons/picons-social/57/11-linkedin-256.png"
+          alt="LinkedIn Logo"
+      /></a>
+
+      <a
+        href="https://github.com/JustineSeagurr"
+        target="_blank"
+        title="GitHub Profile: Open in New Tab"
+        class="github"
+      >
+        <img
+          class="coder-links"
+          src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-256.png"
+          alt="GitHub Logo"
+      /></a>
+    </div>
+    <script>
+      function readyToJoin() {
+        alert("Hello there😁");
+        let name = prompt("What is your name?");
+        let answer = prompt("Would you like to join the fandom?");
+        let h1 = document.querySelector("h1");
+        answer = answer.toLowerCase();
+        answer = answer.trim();
+        if (answer === "yes") {
+          h1.innerHTML = "BTS Army Welcomes You " + name + "💜";
+        } else {
+          h1.innerHTML =
+            "If you ever change your mind, you're always welcome to come back " +
+            name +
+            "😊";
+        }
+        window.scrollTo(0, 0);
+      }
+      let joinButton = document.querySelector(".join");
+      joinButton.addEventListener("click", readyToJoin);
+    </script>
+  </body>
+</html>
